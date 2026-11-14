@@ -8,7 +8,7 @@
 // @match        https://mobile.twitter.com/*
 // @match        https://x.com/*
 // @match        https://mobile.x.com/*
-// @version      0.7.10
+// @version      0.7.10a
 // @license      MIT
 // @require      https://code.jquery.com/jquery-3.7.1.min.js
 // @require      https://cdnjs.cloudflare.com/ajax/libs/jszip/3.5.0/jszip.min.js
@@ -94,7 +94,7 @@
   const FMT_PHOTO =
     /^https:\/\/(?:mobile\.|)(?:twitter|x)\.com\/(\w+)\/status\/(\d+)\/photo\/(\d+)$/;
   const FMT_VIDEO =
-    /^https:\/\/(?:mobile\.|)(?:twitter|x)\.com\/(\w+)\/status\/(\d+)\/video\/(\d)$/;
+    /^https:\/\/(?:mobile\.|)(?:twitter|x)\.com\/(\w+)\/status\/(\d+)\/video\/(\d+)$/;
   const FMT_SETTING = /^https:\/\/(?:mobile\.|)(?:twitter|x)\.com\/settings(|\/.+)$/;
   const FMT_MEDIA_LEGACY = /^(https?:\/\/.+)\.(\w+)(?::(\w+)|)$/;
   const FMT_MEDIA_MODERN = /^(https?:\/\/.+)\?format=(\w+)&name=(\w+)$/;
